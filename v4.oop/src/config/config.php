@@ -5,7 +5,6 @@ if (!isset($magic) or !defined($magic)) {
   die("404 Not Found");
 };
 
-
 if (!_LOCAL_APP) {
   define("DB_USER", MYSQL_USER);
   define("DB_PASS", MYSQL_PASSWORD);
@@ -15,5 +14,5 @@ if (!_LOCAL_APP) {
   define("DB_USER", "root");
   define("DB_PASS", "");
   define("DB_HOST", "localhost");
-  define("DB_NAME", "t308");
+  define("DB_NAME", "apiv4");
 }

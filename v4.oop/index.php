@@ -20,5 +20,5 @@ require_once "src/routes/routes.php";
 if (!_LOCAL_APP) {
   Route::run('/',0,0,1);
 } else {
-  Route::run('/php/007.rest/api/v4.oop/',0,0,1);
+  Route::run('/php/v4.oop/v4.oop/',0,0,1);
 }
